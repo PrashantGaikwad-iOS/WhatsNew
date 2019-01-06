@@ -12,6 +12,28 @@
 		890227BE21E0C79A0037EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890227BC21E0C79A0037EE31 /* Main.storyboard */; };
 		890227C021E0C79C0037EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890227BF21E0C79C0037EE31 /* Assets.xcassets */; };
 		890227C321E0C79C0037EE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890227C121E0C79C0037EE31 /* LaunchScreen.storyboard */; };
+		890227E921E0C7B60037EE31 /* WhatsNewViewController+TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227CC21E0C7B60037EE31 /* WhatsNewViewController+TitleView.swift */; };
+		890227EA21E0C7B60037EE31 /* WhatsNewViewController+CompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227CD21E0C7B60037EE31 /* WhatsNewViewController+CompletionButton.swift */; };
+		890227EB21E0C7B60037EE31 /* WhatsNewViewController+HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227CE21E0C7B60037EE31 /* WhatsNewViewController+HapticFeedback.swift */; };
+		890227EC21E0C7B60037EE31 /* WhatsNewViewController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227CF21E0C7B60037EE31 /* WhatsNewViewController+Animation.swift */; };
+		890227ED21E0C7B60037EE31 /* WhatsNewViewController+ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D021E0C7B60037EE31 /* WhatsNewViewController+ItemsView.swift */; };
+		890227EE21E0C7B60037EE31 /* WhatsNewViewController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D121E0C7B60037EE31 /* WhatsNewViewController+Configuration.swift */; };
+		890227EF21E0C7B60037EE31 /* WhatsNewViewController+DetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D221E0C7B60037EE31 /* WhatsNewViewController+DetailButton.swift */; };
+		890227F021E0C7B60037EE31 /* WhatsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D321E0C7B60037EE31 /* WhatsNewViewController.swift */; };
+		890227F121E0C7B60037EE31 /* WhatsNew+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D521E0C7B60037EE31 /* WhatsNew+Version.swift */; };
+		890227F221E0C7B60037EE31 /* WhatsNew+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D621E0C7B60037EE31 /* WhatsNew+Item.swift */; };
+		890227F321E0C7B60037EE31 /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D721E0C7B60037EE31 /* WhatsNew.swift */; };
+		890227F421E0C7B60037EE31 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227D921E0C7B60037EE31 /* UIColorExtension.swift */; };
+		890227F521E0C7B60037EE31 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227DA21E0C7B60037EE31 /* UIImageExtension.swift */; };
+		890227F621E0C7B60037EE31 /* WhatsNewButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227DD21E0C7B60037EE31 /* WhatsNewButtonsView.swift */; };
+		890227F721E0C7B60037EE31 /* WhatsNewCompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227DE21E0C7B60037EE31 /* WhatsNewCompletionButton.swift */; };
+		890227F821E0C7B60037EE31 /* WhatsNewDetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227DF21E0C7B60037EE31 /* WhatsNewDetailButton.swift */; };
+		890227F921E0C7B60037EE31 /* WhatsNewTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E121E0C7B60037EE31 /* WhatsNewTitleView.swift */; };
+		890227FA21E0C7B60037EE31 /* WhatsNewItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E321E0C7B60037EE31 /* WhatsNewItemTableViewCell.swift */; };
+		890227FB21E0C7B60037EE31 /* WhatsNewItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E421E0C7B60037EE31 /* WhatsNewItemsView.swift */; };
+		890227FC21E0C7B60037EE31 /* InMemoryWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E621E0C7B60037EE31 /* InMemoryWhatsNewVersionStore.swift */; };
+		890227FD21E0C7B60037EE31 /* KeyValueWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E721E0C7B60037EE31 /* KeyValueWhatsNewVersionStore.swift */; };
+		890227FE21E0C7B60037EE31 /* WhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890227E821E0C7B60037EE31 /* WhatsNewVersionStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +44,28 @@
 		890227BF21E0C79C0037EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		890227C221E0C79C0037EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		890227C421E0C79C0037EE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890227CC21E0C7B60037EE31 /* WhatsNewViewController+TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+TitleView.swift"; sourceTree = "<group>"; };
+		890227CD21E0C7B60037EE31 /* WhatsNewViewController+CompletionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+CompletionButton.swift"; sourceTree = "<group>"; };
+		890227CE21E0C7B60037EE31 /* WhatsNewViewController+HapticFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+HapticFeedback.swift"; sourceTree = "<group>"; };
+		890227CF21E0C7B60037EE31 /* WhatsNewViewController+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+Animation.swift"; sourceTree = "<group>"; };
+		890227D021E0C7B60037EE31 /* WhatsNewViewController+ItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+ItemsView.swift"; sourceTree = "<group>"; };
+		890227D121E0C7B60037EE31 /* WhatsNewViewController+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+Configuration.swift"; sourceTree = "<group>"; };
+		890227D221E0C7B60037EE31 /* WhatsNewViewController+DetailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+DetailButton.swift"; sourceTree = "<group>"; };
+		890227D321E0C7B60037EE31 /* WhatsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewViewController.swift; sourceTree = "<group>"; };
+		890227D521E0C7B60037EE31 /* WhatsNew+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNew+Version.swift"; sourceTree = "<group>"; };
+		890227D621E0C7B60037EE31 /* WhatsNew+Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNew+Item.swift"; sourceTree = "<group>"; };
+		890227D721E0C7B60037EE31 /* WhatsNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNew.swift; sourceTree = "<group>"; };
+		890227D921E0C7B60037EE31 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		890227DA21E0C7B60037EE31 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		890227DD21E0C7B60037EE31 /* WhatsNewButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewButtonsView.swift; sourceTree = "<group>"; };
+		890227DE21E0C7B60037EE31 /* WhatsNewCompletionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewCompletionButton.swift; sourceTree = "<group>"; };
+		890227DF21E0C7B60037EE31 /* WhatsNewDetailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewDetailButton.swift; sourceTree = "<group>"; };
+		890227E121E0C7B60037EE31 /* WhatsNewTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewTitleView.swift; sourceTree = "<group>"; };
+		890227E321E0C7B60037EE31 /* WhatsNewItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewItemTableViewCell.swift; sourceTree = "<group>"; };
+		890227E421E0C7B60037EE31 /* WhatsNewItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewItemsView.swift; sourceTree = "<group>"; };
+		890227E621E0C7B60037EE31 /* InMemoryWhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		890227E721E0C7B60037EE31 /* KeyValueWhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		890227E821E0C7B60037EE31 /* WhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewVersionStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 		890227B721E0C79A0037EE31 /* WhatsNew */ = {
 			isa = PBXGroup;
 			children = (
+				890227CA21E0C7B60037EE31 /* Sources */,
 				890227B821E0C79A0037EE31 /* AppDelegate.swift */,
 				890227BA21E0C79A0037EE31 /* ViewController.swift */,
 				890227BC21E0C79A0037EE31 /* Main.storyboard */,
@@ -62,6 +107,100 @@
 				890227C421E0C79C0037EE31 /* Info.plist */,
 			);
 			path = WhatsNew;
+			sourceTree = "<group>";
+		};
+		890227CA21E0C7B60037EE31 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				890227CB21E0C7B60037EE31 /* Configuration */,
+				890227D321E0C7B60037EE31 /* WhatsNewViewController.swift */,
+				890227D421E0C7B60037EE31 /* Models */,
+				890227D821E0C7B60037EE31 /* Extensions */,
+				890227DB21E0C7B60037EE31 /* Views */,
+				890227E521E0C7B60037EE31 /* Store */,
+			);
+			name = Sources;
+			path = "../../../../../../Downloads/WhatsNewKit-master/Sources";
+			sourceTree = "<group>";
+		};
+		890227CB21E0C7B60037EE31 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				890227CC21E0C7B60037EE31 /* WhatsNewViewController+TitleView.swift */,
+				890227CD21E0C7B60037EE31 /* WhatsNewViewController+CompletionButton.swift */,
+				890227CE21E0C7B60037EE31 /* WhatsNewViewController+HapticFeedback.swift */,
+				890227CF21E0C7B60037EE31 /* WhatsNewViewController+Animation.swift */,
+				890227D021E0C7B60037EE31 /* WhatsNewViewController+ItemsView.swift */,
+				890227D121E0C7B60037EE31 /* WhatsNewViewController+Configuration.swift */,
+				890227D221E0C7B60037EE31 /* WhatsNewViewController+DetailButton.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		890227D421E0C7B60037EE31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				890227D521E0C7B60037EE31 /* WhatsNew+Version.swift */,
+				890227D621E0C7B60037EE31 /* WhatsNew+Item.swift */,
+				890227D721E0C7B60037EE31 /* WhatsNew.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		890227D821E0C7B60037EE31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				890227D921E0C7B60037EE31 /* UIColorExtension.swift */,
+				890227DA21E0C7B60037EE31 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		890227DB21E0C7B60037EE31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				890227DC21E0C7B60037EE31 /* Buttons */,
+				890227E021E0C7B60037EE31 /* Title */,
+				890227E221E0C7B60037EE31 /* Items */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		890227DC21E0C7B60037EE31 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				890227DD21E0C7B60037EE31 /* WhatsNewButtonsView.swift */,
+				890227DE21E0C7B60037EE31 /* WhatsNewCompletionButton.swift */,
+				890227DF21E0C7B60037EE31 /* WhatsNewDetailButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		890227E021E0C7B60037EE31 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				890227E121E0C7B60037EE31 /* WhatsNewTitleView.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		890227E221E0C7B60037EE31 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				890227E321E0C7B60037EE31 /* WhatsNewItemTableViewCell.swift */,
+				890227E421E0C7B60037EE31 /* WhatsNewItemsView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		890227E521E0C7B60037EE31 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				890227E621E0C7B60037EE31 /* InMemoryWhatsNewVersionStore.swift */,
+				890227E721E0C7B60037EE31 /* KeyValueWhatsNewVersionStore.swift */,
+				890227E821E0C7B60037EE31 /* WhatsNewVersionStore.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +274,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890227EE21E0C7B60037EE31 /* WhatsNewViewController+Configuration.swift in Sources */,
+				890227F421E0C7B60037EE31 /* UIColorExtension.swift in Sources */,
+				890227F221E0C7B60037EE31 /* WhatsNew+Item.swift in Sources */,
+				890227F021E0C7B60037EE31 /* WhatsNewViewController.swift in Sources */,
+				890227F121E0C7B60037EE31 /* WhatsNew+Version.swift in Sources */,
+				890227F721E0C7B60037EE31 /* WhatsNewCompletionButton.swift in Sources */,
+				890227F921E0C7B60037EE31 /* WhatsNewTitleView.swift in Sources */,
+				890227FC21E0C7B60037EE31 /* InMemoryWhatsNewVersionStore.swift in Sources */,
+				890227FB21E0C7B60037EE31 /* WhatsNewItemsView.swift in Sources */,
+				890227ED21E0C7B60037EE31 /* WhatsNewViewController+ItemsView.swift in Sources */,
+				890227EC21E0C7B60037EE31 /* WhatsNewViewController+Animation.swift in Sources */,
+				890227FA21E0C7B60037EE31 /* WhatsNewItemTableViewCell.swift in Sources */,
+				890227F321E0C7B60037EE31 /* WhatsNew.swift in Sources */,
+				890227F521E0C7B60037EE31 /* UIImageExtension.swift in Sources */,
 				890227BB21E0C79A0037EE31 /* ViewController.swift in Sources */,
+				890227FD21E0C7B60037EE31 /* KeyValueWhatsNewVersionStore.swift in Sources */,
+				890227EA21E0C7B60037EE31 /* WhatsNewViewController+CompletionButton.swift in Sources */,
+				890227FE21E0C7B60037EE31 /* WhatsNewVersionStore.swift in Sources */,
+				890227E921E0C7B60037EE31 /* WhatsNewViewController+TitleView.swift in Sources */,
 				890227B921E0C79A0037EE31 /* AppDelegate.swift in Sources */,
+				890227EB21E0C7B60037EE31 /* WhatsNewViewController+HapticFeedback.swift in Sources */,
+				890227EF21E0C7B60037EE31 /* WhatsNewViewController+DetailButton.swift in Sources */,
+				890227F621E0C7B60037EE31 /* WhatsNewButtonsView.swift in Sources */,
+				890227F821E0C7B60037EE31 /* WhatsNewDetailButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = WhatsNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = WhatsNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
